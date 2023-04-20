@@ -74,6 +74,7 @@ public class Main {
                 .map(a -> (a.replace('a','4')))
                 .forEach(System.out::println);
 
+
         System.out.println("\nMostrat només numerics");
         list.stream()
                 .filter(s -> s.chars().allMatch(Character::isDigit))
