@@ -28,7 +28,7 @@ public class Main {
         exercise4();
 
         System.out.println("\nExercise 5:");
-        FunctionalInterfaceEx5 Foo = () -> 3.1415;
+        FunInterEx5 Foo = () -> 3.1415;
         System.out.println(Foo.getPiValue());
 
         System.out.println("\nExercise 6:");
@@ -43,7 +43,7 @@ public class Main {
 //            return sb.reverse().toString();
 //        };
 
-        FIEx8 funcTionEx8 = (s) ->  new StringBuilder(s).reverse().toString();
+        FunInterEx8 funcTionEx8 = (s) ->  new StringBuilder(s).reverse().toString();
         System.out.println(funcTionEx8.reverse("Hola"));
 
     }
